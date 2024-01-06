@@ -107,7 +107,7 @@ banner-text {
     border: 10px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin:130px 230px 2739px 230px;
+    margin: 130px 230px 130px 230px;
 
 }
 
@@ -131,16 +131,47 @@ banner-text {
     font-weight: 400;
     line-height: 30px;
     /* 166.667% */
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    padding-bottom: 3px;
 }
 
 /* about sections */
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
 
 }
-.about-info{
+
+.about-info {
     text-align: center
+}
+
+/* What i do section start */
+
+.section-title-what {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.what-i-do-description {
+    margin: auto ;
+    width: 909px;
+    height: 90px;
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    padding: 30px auto;
+
 }
