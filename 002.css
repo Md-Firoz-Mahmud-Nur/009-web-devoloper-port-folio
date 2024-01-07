@@ -48,11 +48,12 @@ nav li {
     border: 0;
     background: #FD6E0A;
     color: white;
-    font-size: 20px
-        /* font-style: normal; */
-        font-weight: 700;
+    font-size: 20px;
+    padding: 18px;
+    font-style: normal;
+    font-weight: 700;
     line-height: normal;
-    padding: 18px
+
 }
 
 /* header ralated style */
@@ -285,102 +286,111 @@ banner-text {
     line-height: normal;
 }
 
-.footer{
-    background: #FFF8F3; 
+.footer {
+    background: #FFF8F3;
     margin-top: 131px;
     padding: 0px 230px;
     padding-bottom: 130px;
 }
 
-.footer-column{
+.footer-column {
     display: flex;
     text-align: left;
     gap: 117px;
 }
-.social-media-icon{
+
+.social-media-icon {
     padding: 230px;
     width: 24px;
-height: 24px;
-flex-shrink: 0;
+    height: 24px;
+    flex-shrink: 0;
 
-color: #FD6E0A;
+    color: #FD6E0A;
 }
 
-.social-icon-padding{
+.social-icon-padding {
     margin-right: 24px;
 }
-.social-icon-size{
+
+.social-icon-size {
     width: 24px;
-height: 24px;
-flex-shrink: 0;
+    height: 24px;
+    flex-shrink: 0;
 }
-.footer-section-title{
+
+.footer-section-title {
     text-align: left;
     color: #181818;
-font-family: Open Sans;
-font-size: 35px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-.footer-section-description{
-    color: #474747;
-font-family: Open Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 175% */
-text-align: left;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-.footer-section-title-2{
+.footer-section-description {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    text-align: left;
+}
+
+.footer-section-title-2 {
     color: #181818;
 
-font-family: Open Sans;
-font-size: 35px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-width: 305px;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 305px;
 
 
 
 
 
 }
-.footer-section-title-2 input, textarea{
+
+.footer-section-title-2 input,
+textarea {
     background: #FFF;
     margin-bottom: 25px;
     padding: 18px 35px;
     display: block;
-    color: #757575
-    ;border-radius: 5px;
+    color: #757575;
+    border-radius: 5px;
     border: 0;
     width: 100%;
-   
-    
-    
+
+
+
 
 
 
 }
-.button-03{
+
+.button-03 {
     background-color: #FD6E0A;
     width: 150px;
-height: 64px;
-flex-shrink: 0;
-color: #FFF;
-text-align: ;
-font-family: Open Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    height: 64px;
+    flex-shrink: 0;
+    color: #FFF;
+    /* text-align: ; */
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 
 }
-#message{
+
+#message {
     width: 461px;
-height: 180px;
-flex-shrink: 0;
-padding: 18px 35px;
+    height: 180px;
+    flex-shrink: 0;
+    padding: 18px 35px;
 }
